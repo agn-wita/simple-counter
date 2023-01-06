@@ -1,3 +1,30 @@
 body {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    display: block;
+    color: white;
+    font-weight: bold;
+    padding: 7px 14px;
+    margin: 0 auto 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-family: inherit;
+    width: 150px;
+}
+
+.btn-red {
+    background: red;
+}
+
+.btn-green {
+    background: green;
+}
+
+button:hover {
+    background: blue;
 }

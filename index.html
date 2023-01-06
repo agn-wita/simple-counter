@@ -2,11 +2,15 @@
 <html lang="en">
 <head>
     <title>Simple counter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Website visitors counter</h1>
-    <h2 id="count">0</h2>
+    <h1>Click button counter</h1>
+    <h2 id="count-el">0</h2>
+    <button class="btn-red" id="increment-btn" onclick="increment()">INCREMENT</button>
+    <button class="btn-green" id="save-btn" onclick="save()">SAVE</button>
+    <p id="save-el">Previous clicks:</p>
+    <script src="index.js"></script>
 </body>
-<script src="index.js"></script>
 </html>

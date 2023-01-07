@@ -11,5 +11,5 @@ function increment() {
 
 function save() {
     countStr = count + " - "
-    saveEl.innerText += countStr
+    saveEl.innerContent += countStr
 }

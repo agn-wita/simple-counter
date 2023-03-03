@@ -2,10 +2,11 @@
 
 The project contain the counter of "INCREMENT" button clicks. Each button click is saved and displayd down below the "SAVE" button
 
-## The tasks I faced:
-- setting up JavaScritp file
-- writing string and number variables
-- creating basic mathematical operations
-- adding onclick event listener
-- writing functions (increment and save)
-- displaying the count with innerText and textContent
+## JAVASCRIPT
+- increment function triggers when user clicks the INCREMENT button
+- save function triggers when user clicks the SAVE button
+- after the result is saved, the counter is reset to 0
+- all previous clicks are stored and visible to the user
+
+## Stage of the project: completed
+Please note that this project is based on tutorial but the code was not copied. Every line of code was written by me according to my invention and with deep understanding of the issues.

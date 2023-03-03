@@ -1,6 +1,6 @@
 # simple-counter
 
-## The project contain the counter of "INCREMENT" button clicks. Each button click is saved and displayd down below the "SAVE" button
+The project contain the counter of "INCREMENT" button clicks. Each button click is saved and displayd down below the "SAVE" button
 
 ## The tasks I faced:
 - setting up JavaScritp file
